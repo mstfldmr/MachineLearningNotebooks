@@ -1,0 +1,16 @@
+name: example-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - scikit-learn
+  - tensorflow
+  - keras
+
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
